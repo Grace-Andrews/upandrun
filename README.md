@@ -6,7 +6,7 @@ This repo provides you with a complete, yet simple environment that consists of 
 
 ## Pre-Steps ##
 
-Before cloning this repo, you'll have to install both Vagrant[https://www.vagrantup.com/] and VirtualBox[https://www.virtualbox.org/wiki/Downloads]. 
+Before cloning this repo, you'll have to install both [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/wiki/Downloads). 
 
 Once both are installed, you'll be able to do the following steps from your CLI:
 
@@ -19,3 +19,5 @@ Once both are installed, you'll be able to do the following steps from your CLI:
 
 'vagrant ssh <IPaddress for Master>'
 ```
+
+In order to get into your boxes, you can either ssh in from your command line, or you can use the VirtualBox interface.
