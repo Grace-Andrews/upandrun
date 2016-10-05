@@ -15,7 +15,13 @@ Once both are installed, you'll be able to do the following steps from your CLI:
 
 'cd upandrun'
 
-'vagrant up'
+**vagrant up each vm separately, wait for the previous vm to load fully before bringing up the next one** 
+
+'vagrant up /master/'
+
+'vagrant up /linux/'
+
+'vagrant up /windows/'
 
 'vagrant hosts list'
 
