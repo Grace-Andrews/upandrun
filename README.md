@@ -13,6 +13,8 @@ Once both are installed, you'll be able to do the following steps from your CLI:
 ```
 'git clone https://github.com/Grace-Andrews/upandrun'
 
+'cd upandrun'
+
 'vagrant up'
 
 'vagrant hosts list'
