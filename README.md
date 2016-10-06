@@ -8,6 +8,8 @@ This repo provides you with a complete, yet simple environment that consists of 
 
 Before cloning this repo, you'll have to install both [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/wiki/Downloads). 
 
+For downloads : https://puppet.com/download-puppet-enterprise/thank-you
+
 Once both are installed, you'll be able to do the following steps from your CLI:
 
 ```
