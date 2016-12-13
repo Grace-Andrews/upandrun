@@ -28,6 +28,7 @@ Once both are installed, you'll be able to do the following steps from your CLI:
 'vagrant hosts list'
 
 **ssh into each box individually**
+
 'vagrant ssh <IPaddress for Master>'
 'vagrant ssh <IPaddress for Linux>'
 'vagrant ssh <IPaddress for Windows>'
