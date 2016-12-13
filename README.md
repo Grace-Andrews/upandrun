@@ -27,7 +27,11 @@ Once both are installed, you'll be able to do the following steps from your CLI:
 
 'vagrant hosts list'
 
+**ssh into each box individually**
 'vagrant ssh <IPaddress for Master>'
+'vagrant ssh <IPaddress for Linux>'
+'vagrant ssh <IPaddress for Windows>'
+
 ```
 
-In order to get into your boxes, you can either ssh in from your command line, or you can use the VirtualBox interface.
+In order to get into your boxes, you can either ssh in from your command line, or you can use the VirtualBox interface. You can read more on Vagrant commands in their [docs](https://www.vagrantup.com/docs/cli/). 
