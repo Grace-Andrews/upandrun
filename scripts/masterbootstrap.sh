@@ -4,7 +4,7 @@ hostname master.vm
 echo '192.168.50.4 master.vm master' >> /etc/hosts
 mkdir -p /etc/puppetlabs/puppet
 echo '*' > /etc/puppetlabs/puppet/autosign.conf
-curl -Lo pe.archive 'https://pm.puppetlabs.com/cgi-bin/download.cgi?dist=el&rel=7&arch=x86_64&ver=latest'
+curl -Lo pe.archive 'https://pm.puppetlabs.com/puppet-enterprise/2016.4.8/puppet-enterprise-2016.4.8-el-7-x86_64.tar.gz'
 tar -xf pe.archive
 cat > pe.conf <<-EOF
 {
